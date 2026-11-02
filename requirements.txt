@@ -1,0 +1,9 @@
+# 运行依赖
+numpy>=1.24
+matplotlib>=3.7
+opencv-python>=4.8
+requests>=2.31
+Pillow>=10.0
+
+# 说明：本项目不依赖 ROS / rospy。若需接入真实 VRX 仿真栈，
+# 请另装 ROS 2 + VRX，并替换 src/simulation/vrx_simulator.py 中的环境接口。
